@@ -1,18 +1,18 @@
 # react-typescript-starter
 
-> A React and TypeScript Starter Kit.
+> React and TypeScript Starter kit
+
+## Install
+
+```sh
+git clone https://github.com/willy14620/react-typescript-starter.git
+cd react-typescript-starter
+npm install
+```
 
 ## Usage
 
-### Clone repo
-
-```shell
-git clone https://github.com/willy14620/react-typescript-starter.git
-```
-
-### Start developing
-
-```shell
+```sh
 # Use development mode to bundle files into dist/ .
 npm run build
 
@@ -22,6 +22,12 @@ npm run build:prod
 # It will automatically bundle files and open the browser.
 npm run dev
 ```
+
+## Todo
+
+- [ ] Add React Testing Library.
+- [ ] Divided into development and production environments
+- [ ] Add file loader, and other things needed.
 
 ## Reference
 
