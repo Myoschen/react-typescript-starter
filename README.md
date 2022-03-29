@@ -28,6 +28,7 @@ npm run dev
 - [ ] Add React Testing Library.
 - [ ] Divided into development and production environments
 - [ ] Add file loader, and other things needed.
+- [ ] Make homepage.
 
 ## Reference
 
