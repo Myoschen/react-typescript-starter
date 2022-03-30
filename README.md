@@ -13,13 +13,10 @@ npm install
 ## Usage
 
 ```sh
-# Use development mode to bundle files into dist/ .
+# Production mode
 npm run build
 
-# Use production mode to bundle files into dist/ .
-npm run build:prod
-
-# It will automatically bundle files and open the browser.
+# Development mode
 npm run dev
 ```
 
