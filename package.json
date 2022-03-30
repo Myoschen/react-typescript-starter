@@ -2,11 +2,10 @@
   "name": "react-typescript-starter",
   "version": "1.0.0",
   "description": "React and TypeScript Starter kit",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
-    "build": "npx webpack",
-    "dev": "webpack-dev-server --mode development",
-    "build:prod": "npx webpack --mode production"
+    "build": "npx webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --config webpack.dev.js"
   },
   "repository": {
     "type": "git",

@@ -25,8 +25,8 @@ npm run dev
 
 ## Todo
 
+- [x] Divided into development and production environments
 - [ ] Add React Testing Library.
-- [ ] Divided into development and production environments
 - [ ] Add file loader, and other things needed.
 - [ ] Make homepage.
 
