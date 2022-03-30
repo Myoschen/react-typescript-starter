@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // eslint-disable-line import/no-extraneous-dependencies
 const MiniCssExtractPlugin = require('mini-css-extract-plugin'); // eslint-disable-line import/no-extraneous-dependencies
 const { CleanWebpackPlugin } = require('clean-webpack-plugin'); // eslint-disable-line import/no-extraneous-dependencies
-const webpack = require('webpack'); // eslint-disable-line import/no-extraneous-dependencies
+const WebpackBar = require('webpackbar'); // eslint-disable-line import/no-extraneous-dependencies
 
 module.exports = {
   entry: {
@@ -11,7 +11,7 @@ module.exports = {
   output: {
     filename: 'js/bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    assetModuleFilename: 'static/images/[name].[ext]',
+    assetModuleFilename: 'static/images/[name][ext]',
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
@@ -34,7 +34,7 @@ module.exports = {
     ],
   },
   plugins: [
-    new webpack.ProgressPlugin(),
+    new WebpackBar(),
     new MiniCssExtractPlugin({
       filename: 'static/css/[name].css',
     }),
@@ -45,9 +45,4 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
   ],
-  devServer: {
-    port: 3000,
-    open: true,
-    hot: true,
-  },
 };
