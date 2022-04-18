@@ -16,7 +16,7 @@
     "typescript"
   ],
   "author": "willy14620",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/willy14620/react-typescript-starter/issues"
   },
