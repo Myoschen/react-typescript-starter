@@ -1,5 +1,9 @@
 # react-typescript-starter
 
+
+![GitHub](https://img.shields.io/github/license/willy14620/react-typescript-starter?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/willy14620/react-typescript-starter?style=flat-square)
+
 > React and TypeScript Starter kit
 
 ## Install
