@@ -1,16 +1,15 @@
-# react-typescript-starter
-
+# 🧰 react-typescript-starter
 
 ![GitHub](https://img.shields.io/github/license/willy14620/react-typescript-starter?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/willy14620/react-typescript-starter?style=flat-square)
 
-> React and TypeScript Starter kit
+> **React and TypeScript Starter kit**
 
 ## Install
 
 ```sh
 # Clone this project to your environment
-git clone https://github.com/willy14620/react-typescript-starter.git
+git clone https://github.com/Myoschen/react-typescript-starter.git
 
 # Move to project
 cd react-typescript-starter
@@ -29,7 +28,7 @@ npm run build
 npm run dev
 ```
 
-## Todo
+## To-do
 
 - [x] Divided into development and production environments
 - [x] Add assets module.
